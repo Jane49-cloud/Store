@@ -10,7 +10,7 @@
  <th>Cover images</th>
  <td>
  {% for image in object.productimage_set.all %}
- <img src="{{ image.thumbnail.url }}" alt="cover"/>
+ <img src="{{ image.thumbnail.url }}" height="200" width="200" alt="cover"/>
  {% endfor %}
  </td>
  </tr>
